@@ -76,6 +76,28 @@ def main() -> int:
                     if not linked.exists():
                         errors.append(f"{rel}: broken link {target}")
 
+        style_text = (profile / "style-profile.md").read_text(encoding="utf-8")
+        headings = ["## 一句话核心文风", "## 文笔审计与量化评分", "## 稳定文风核心"]
+        if not all(h in style_text for h in headings) or not (
+            style_text.find(headings[0]) < style_text.find(headings[1]) < style_text.find(headings[2])
+        ):
+            errors.append(f"{rel_profile}: prose audit missing or misplaced")
+        else:
+            audit = style_text.split(headings[1], 1)[-1].split("\n## ", 1)[0]
+            dimensions = ["语言控制", "对白塑造", "画面氛围", "情绪感染", "信息组织", "关系亲密感", "收笔与留白", "综合文笔"]
+            normalized_audit = audit.replace("**", "")
+            for dimension in dimensions:
+                if dimension not in audit:
+                    errors.append(f"{rel_profile}: prose audit missing dimension '{dimension}'")
+                    continue
+                score_match = re.search(
+                    rf"^\|\s*{re.escape(dimension)}\s*\|\s*(\d+(?:\.\d+)?)\s*/\s*10\s*\|",
+                    normalized_audit,
+                    re.M,
+                )
+                if not score_match or not 0 <= float(score_match.group(1)) <= 10:
+                    errors.append(f"{rel_profile}: invalid prose audit score for '{dimension}'")
+
         manifest_path = profile / "source-manifest.json"
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))

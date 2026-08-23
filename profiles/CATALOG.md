@@ -5,6 +5,7 @@
 | 编号 | 目录 | 样本衍生档案 | 主角魅力对象 | 完结分析 | 状态 |
 |---|---|---|---|---|---|
 | 001 | [001-youfei-priest](001-youfei-priest/README.md) | 《有匪》／priest | 谢允 | 主线结局＋源文件所含番外 | B·可复用 |
+| 002 | [002-hanshanji-kanchangtingwan](002-hanshanji-kanchangtingwan/README.md) | 《寒山纪》／看长亭晚 | 洛元秋 | 第225章主线结局＋第226章番外 | B·可复用 |
 
 ## 加载规则
 
@@ -19,7 +20,7 @@
 
 ```text
 README.md
-style-profile.md
+style-profile.md              # 含文笔审计与八项量化评分
 application-card.md
 protagonist-charm.md
 ending-design.md

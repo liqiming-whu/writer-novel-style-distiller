@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-24T04:14:00+08:00",
+  "profile_name": "《寒山纪》样本衍生文风",
+  "work_title": "寒山纪",
+  "author": "看长亭晚",
+  "publication_context": "晋江平台，仙侠百合",
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.txt",
+      "path": null,
+      "format": "txt",
+      "encoding": "utf-8-sig",
+      "sha256": "7d51ea6af7ff1204771e9823e2610372ee795919dad961e5daf4749d59eaf3af",
+      "file_size_bytes": 3572149,
+      "decoded_file_characters": 1208574,
+      "ingest_raw_characters": 1141653,
+      "ingest_clean_characters": 1141646,
+      "unit_type": "chapter",
+      "ingestion_unit_count": 229,
+      "warnings": [
+        "dropped short pre-chapter metadata/preface",
+        "very short chapter candidate: 第29章",
+        "very short chapter candidate: 第30章",
+        "very short chapter candidate: 第31章",
+        "第225章内有147个连续段落额外重复7次",
+        "存在零星站点残留、断行、页码与乱码式字符"
+      ]
+    }
+  ],
+  "corpus": {
+    "full_text_covered": true,
+    "raw_ingest_effective_characters": 1140537,
+    "effective_characters": 1089465,
+    "unit_count": 229,
+    "ingestion_unit_count": 229,
+    "semantic_unit_count": 226,
+    "main_story_chapters": 225,
+    "provided_extra_sections": 1,
+    "empty_heading_shells": 3,
+    "unit_kinds": {
+      "main_chapter": 225,
+      "extra": 1,
+      "empty_heading_shell": 3
+    },
+    "chapter_detection_confident": true,
+    "early_mid_late_compared": true,
+    "metrics_file": null,
+    "semantic_deduplicated": true,
+    "semantic_deduplication_note": "第225章源文件内的段落150—296在后续额外重复7次；语义副本保留首份，并保留仅出现于末尾的5段。原始文件未修改。"
+  },
+  "sampling": {
+    "close_read_units": [
+      {
+        "unit_index": 1,
+        "title": "第1章",
+        "reason": "opening; protagonist entry; daily humor; home imagery"
+      },
+      {
+        "unit_index": 2,
+        "title": "第2章",
+        "reason": "opening continuation; bedding preference; competence contrast"
+      },
+      {
+        "unit_index": 25,
+        "title": "第25章",
+        "reason": "protagonist lexical misunderstanding; relationship interaction"
+      },
+      {
+        "unit_index": 47,
+        "title": "第44章",
+        "reason": "early section stratified sample"
+      },
+      {
+        "unit_index": 58,
+        "title": "第55章",
+        "reason": "first-quarter stratified sample"
+      },
+      {
+        "unit_index": 86,
+        "title": "第83章",
+        "reason": "makeup scene; intimacy; dream and past transition"
+      },
+      {
+        "unit_index": 87,
+        "title": "第84章",
+        "reason": "grow-together promise; lifespan vulnerability"
+      },
+      {
+        "unit_index": 92,
+        "title": "第89章",
+        "reason": "pre-midpoint relationship and protagonist voice"
+      },
+      {
+        "unit_index": 97,
+        "title": "第94章",
+        "reason": "relationship-definition conflict; explicit dao-companion proposal"
+      },
+      {
+        "unit_index": 98,
+        "title": "第95章",
+        "reason": "protagonist misunderstanding and relationship confirmation"
+      },
+      {
+        "unit_index": 109,
+        "title": "第106章",
+        "reason": "lifespan, curse and family-history pressure"
+      },
+      {
+        "unit_index": 115,
+        "title": "第112章",
+        "reason": "midpoint stratified sample"
+      },
+      {
+        "unit_index": 138,
+        "title": "第135章",
+        "reason": "post-midpoint stratified sample"
+      },
+      {
+        "unit_index": 172,
+        "title": "第169章",
+        "reason": "third-quarter stratified sample"
+      },
+      {
+        "unit_index": 183,
+        "title": "第180章",
+        "reason": "late-section stratified sample"
+      },
+      {
+        "unit_index": 220,
+        "title": "第217章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 221,
+        "title": "第218章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 222,
+        "title": "第219章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 223,
+        "title": "第220章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 224,
+        "title": "第221章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 225,
+        "title": "第222章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 226,
+        "title": "第223章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 227,
+        "title": "第224章",
+        "reason": "complete work: terminal arc structural coverage"
+      },
+      {
+        "unit_index": 228,
+        "title": "第225章《终》",
+        "reason": "complete work: main ending full close read; source duplication manually corrected"
+      },
+      {
+        "unit_index": 229,
+        "title": "第226章《师妹》",
+        "reason": "complete work: supplied extra full close read"
+      }
+    ],
+    "selection_reasons": [
+      "global early-middle-late stratification",
+      "protagonist charm mechanism",
+      "relationship-definition turning point",
+      "lifespan and vulnerability",
+      "complete work: terminal arc structural coverage",
+      "complete work: main ending full close read",
+      "complete work: supplied extra full close read"
+    ]
+  },
+  "protagonist": {
+    "name": "洛元秋",
+    "identification_basis": "用户明确指定女主，并由全书核心视角、关系线与终局人物弧验证",
+    "user_observation": "呆萌可爱，深受读者欢迎",
+    "reader_reception_data_collected": false
+  },
+  "completion": {
+    "status": "complete",
+    "basis": "user_explicit",
+    "user_explicitly_declared": true,
+    "main_ending_present": true,
+    "main_ending_form": "第225章《终》；主线最终章，内含高潮、逃生、归山与春日停止点",
+    "epilogue_present": false,
+    "extras_present": true,
+    "author_afterword_present": false,
+    "terminal_arc_units": [
+      {
+        "unit_index": 220,
+        "title": "第217章",
+        "kind": "chapter",
+        "sha256": "a6974d52a559a582e4e50cd18ec4c77120b0dbf2ef49f6fc1895df92be9e41bd"
+      },
+      {
+        "unit_index": 221,
+        "title": "第218章",
+        "kind": "chapter",
+        "sha256": "8c0e4a5c9b72dc26032e2a3a8f6ee316379dc6141710ac6ee4b9bc9a082e4304"
+      },
+      {
+        "unit_index": 222,
+        "title": "第219章",
+        "kind": "chapter",
+        "sha256": "fc9842d48567cd226863a515452a362f5e4d58875e9711ed19ab2022307ab6aa"
+      },
+      {
+        "unit_index": 223,
+        "title": "第220章",
+        "kind": "chapter",
+        "sha256": "a47852b2d70bdf321fbafc4c79a089170ac26169b93803c392f8ccaf4516ab01"
+      },
+      {
+        "unit_index": 224,
+        "title": "第221章",
+        "kind": "chapter",
+        "sha256": "dc5d5359492ea3b2fe3c5fb57526b2f7aa960d796110dea14295c29a0ea5d854"
+      },
+      {
+        "unit_index": 225,
+        "title": "第222章",
+        "kind": "chapter",
+        "sha256": "0bbf824e4d1862365c056595eda58bf7214b1ea6b77a56e5c79f67056042f39a"
+      },
+      {
+        "unit_index": 226,
+        "title": "第223章",
+        "kind": "chapter",
+        "sha256": "6e0eab04afcecf3b5e386ff0f0ae7ef88798086d22daa54c47c7d3de40548fba"
+      },
+      {
+        "unit_index": 227,
+        "title": "第224章",
+        "kind": "chapter",
+        "sha256": "cb3644dbf4ad7c6d3491ed00c11f9785b0cc6af13910fe0f1396579c6efd6e94"
+      },
+      {
+        "unit_index": 228,
+        "title": "第225章《终》",
+        "kind": "chapter",
+        "sha256": "f6cba079d4231be5cede7325d492209f3169df7bf3c55ffbbcaf80addae998f1",
+        "raw_ingestion_sha256": "60ce365b68126b11917ab4ed178de43f7ab8e2cf506064320c924ebf417556ca",
+        "semantic_label": "主线最终章；去除源文件机械重复段"
+      }
+    ],
+    "main_ending_units": [
+      {
+        "unit_index": 228,
+        "title": "第225章《终》",
+        "kind": "chapter",
+        "sha256": "f6cba079d4231be5cede7325d492209f3169df7bf3c55ffbbcaf80addae998f1",
+        "raw_ingestion_sha256": "60ce365b68126b11917ab4ed178de43f7ab8e2cf506064320c924ebf417556ca",
+        "semantic_label": "主线最终章"
+      }
+    ],
+    "epilogue_units": [],
+    "extra_units": [
+      {
+        "unit_index": 229,
+        "title": "第226章《师妹》",
+        "kind": "extra",
+        "sha256": "d44a08ade6b36639d3884e722255ddb6796db6f1354fb411a43c6dc51add5eff",
+        "semantic_label": "正史未来番外；用户明确指定第226章为番外"
+      }
+    ],
+    "author_afterword_units": [],
+    "missing_or_uncertain_materials": [
+      "当前输入未发现其他独立番外、外传或作者后记；不能据此确认外部版本绝对不存在其他材料"
+    ],
+    "coverage": {
+      "main_ending_analyzed": true,
+      "epilogue_analyzed": false,
+      "extras_checked": true,
+      "extras_analyzed": true
+    }
+  },
+  "limitations": [
+    "S01: dropped short pre-chapter metadata/preface",
+    "S01: 第29章／第二十九章、第30章／第三十章、第31章／第三十一章重复标题，自动切分产生3个2字符空壳",
+    "S01: 第225章段落150—296在后续额外重复7次；work-semantic已去重，原始文件未修改",
+    "S01: 源文件含零星站点残留、断行、页码99与乱码式字符，局部句法观察权重已降低",
+    "第226章标题仅为《师妹》，其番外身份依据用户明确说明人工修正，自动ingest未识别为extra",
+    "当前输入未发现独立尾声或作者后记",
+    "用户提供受欢迎判断，但未执行读者评论、收藏或问卷数据分析",
+    "未执行独立盲评、多场景生成指标回放、主角魅力迁移测试或结局迁移测试"
+  ],
+  "analysis": {
+    "mode": "DISTILL_COMPLETE_ENDING",
+    "global_style_baseline": "第225章重复段去除后的全文语义统计",
+    "terminal_arc_structural_coverage": "第217—225章",
+    "main_ending_close_read": "第225章《终》",
+    "provided_extras_close_read": [
+      "第226章《师妹》"
+    ],
+    "ending_design_report": "ending-design.md",
+    "fidelity_grade": "B",
+    "independent_blind_review": false,
+    "multi_scene_metric_replay": false,
+    "protagonist_charm_transfer_test_run": false,
+    "ending_transfer_test_run": false
+  },
+  "raw_text_packaged": false,
+  "independent_blind_review": false,
+  "publication_scope_note": "The source text and private analysis workdir are not distributed in this repository. Hash and aggregate coverage are retained only for reproducibility.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novel, characters, plots, settings, or original expression."
+}
