@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-23T18:52:51.141717+00:00",
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.txt",
+      "path": null,
+      "format": "txt",
+      "encoding": "utf-8-sig",
+      "sha256": "8102aba172fd3bb304daf7e2b366e8f6731faede4071aac3d8e1a2452dbb7f35",
+      "raw_characters": 687529,
+      "clean_characters": 687506,
+      "unit_type": "chapter",
+      "unit_count": 175,
+      "warnings": [
+        "dropped short pre-chapter metadata/preface",
+        "very short chapter candidate: 第169章",
+        "very short chapter candidate: 第170章",
+        "very short chapter candidate: 第171章"
+      ]
+    }
+  ],
+  "corpus": {
+    "full_text_covered": true,
+    "effective_characters": 686478,
+    "unit_count": 175,
+    "unit_kinds": {
+      "chapter": 171,
+      "extra": 4
+    },
+    "chapter_detection_confident": true,
+    "early_mid_late_compared": true,
+    "metrics_file": "metrics.json",
+    "ingestion_unit_count": 175,
+    "semantic_unit_count": 172,
+    "main_story_chapters": 168,
+    "provided_extra_sections": 4
+  },
+  "sampling": {
+    "close_read_units": [
+      {
+        "unit_index": 1,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 2,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 36,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 37,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 45,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 71,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 88,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 105,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 122,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 131,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 140,
+        "reason": "global stratified reread"
+      },
+      {
+        "unit_index": 159,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 160,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 161,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 162,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 163,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 164,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 165,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 166,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 167,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 168,
+        "reason": "complete work: terminal arc full coverage"
+      },
+      {
+        "unit_index": 170,
+        "reason": "complete work: supplied extra full coverage"
+      },
+      {
+        "unit_index": 171,
+        "reason": "complete work: supplied extra full coverage"
+      },
+      {
+        "unit_index": 173,
+        "reason": "complete work: supplied extra full coverage"
+      },
+      {
+        "unit_index": 175,
+        "reason": "complete work: supplied extra full coverage"
+      }
+    ],
+    "selection_reasons": [
+      "global stratified reread",
+      "complete work: terminal arc full coverage",
+      "complete work: supplied extra full coverage"
+    ]
+  },
+  "completion": {
+    "status": "complete",
+    "basis": "user_explicit",
+    "user_explicitly_declared": true,
+    "main_ending_present": true,
+    "main_ending_form": "第168章《尾》；作为主线最终章处理，不另算尾声",
+    "epilogue_present": false,
+    "extras_present": true,
+    "author_afterword_present": false,
+    "terminal_arc_units": [
+      {
+        "unit_index": 159,
+        "title": "第159章",
+        "kind": "chapter",
+        "sha256": "59a4aee64cb558f2fe3cd5cc3c8d6cf4340b729e67e576cd7f0dfa36285a2e6a"
+      },
+      {
+        "unit_index": 160,
+        "title": "第160章",
+        "kind": "chapter",
+        "sha256": "8835883fcd8b8b3ff9d18314862c35202860cc169d5a7e5cc79d332187d486e9"
+      },
+      {
+        "unit_index": 161,
+        "title": "第161章",
+        "kind": "chapter",
+        "sha256": "bf05bf01a8c3df81fdcc0a234faae77b114538d2e14fe75e33c5ae4c7d31e3c3"
+      },
+      {
+        "unit_index": 162,
+        "title": "第162章",
+        "kind": "chapter",
+        "sha256": "eed70918566645150c828322f4adebb57333a94dfc39d6b7d6865c356beed27d"
+      },
+      {
+        "unit_index": 163,
+        "title": "第163章",
+        "kind": "chapter",
+        "sha256": "c9a3391b3e4d1fb3f397b4ee43fe1246b1a53ed8dbda344949d7e456abe9f059"
+      },
+      {
+        "unit_index": 164,
+        "title": "第164章",
+        "kind": "chapter",
+        "sha256": "204d4e3ebb218515c0203405e5d99dbb482bf8c2324552ed9c979db24423e260"
+      },
+      {
+        "unit_index": 165,
+        "title": "第165章",
+        "kind": "chapter",
+        "sha256": "a1da23b7b1413e31aa878ec39cfdd1b5841aaa103b2331e2629d9d0c60dd7d2f"
+      },
+      {
+        "unit_index": 166,
+        "title": "第166章",
+        "kind": "chapter",
+        "sha256": "a6e0e53fe378584acd49573a04e138d5226bfece8034c24216c1ad67903f8fd1"
+      },
+      {
+        "unit_index": 167,
+        "title": "第167章",
+        "kind": "chapter",
+        "sha256": "e8c8cda710866050924bb2651863cf01976a94d329a3640d6b4a664ff8594e23"
+      },
+      {
+        "unit_index": 168,
+        "title": "第168章",
+        "kind": "chapter",
+        "sha256": "f91c768683a590f0dc6e1c34bc5f453a743915762cfa511468e20be204b8158a"
+      }
+    ],
+    "main_ending_units": [
+      {
+        "unit_index": 168,
+        "title": "第168章",
+        "kind": "chapter",
+        "sha256": "f91c768683a590f0dc6e1c34bc5f453a743915762cfa511468e20be204b8158a",
+        "semantic_label": "主线最终章《尾》"
+      }
+    ],
+    "epilogue_units": [],
+    "extra_units": [
+      {
+        "unit_index": 170,
+        "title": "番外二、番外三",
+        "kind": "extra",
+        "sha256": "e6cf56ff37076023e8be7552175f2a92a46475640d21b44886e2d1ebfd3f66d1",
+        "semantic_label": "番外二·青梅竹马（一）"
+      },
+      {
+        "unit_index": 171,
+        "title": "番外三 青梅竹马（二）58",
+        "kind": "extra",
+        "sha256": "57f5caa6e3c8aafdc5ff7bda1c415408eed3dfb59ee3eb37ff554ea032577a95",
+        "semantic_label": "番外三·青梅竹马（二）"
+      },
+      {
+        "unit_index": 173,
+        "title": "番外四",
+        "kind": "extra",
+        "sha256": "8b9f9d8fbd38cbee4a9f5b756c2293a89924635ec920d4c3bc3d23268afba0f4",
+        "semantic_label": "番外四·青梅竹马（完）"
+      },
+      {
+        "unit_index": 175,
+        "title": "番外五",
+        "kind": "extra",
+        "sha256": "7f06a011dc5ec73bcf15a9a63c7b9a76c18f94eb748c268032fd2434ddbcf2d7",
+        "semantic_label": "番外五·乾封二年后日谈"
+      }
+    ],
+    "author_afterword_units": [],
+    "missing_or_uncertain_materials": [
+      "源文件从番外二开始；番外一未提供，其内容与是否存在无法仅据本文件确认"
+    ],
+    "coverage": {
+      "main_ending_analyzed": true,
+      "epilogue_analyzed": false,
+      "extras_checked": true,
+      "extras_analyzed": true
+    }
+  },
+  "limitations": [
+    "S01: dropped short pre-chapter metadata/preface",
+    "S01: very short chapter candidate: 第169章",
+    "S01: very short chapter candidate: 第170章",
+    "S01: very short chapter candidate: 第171章",
+    "源文件使用“第169章／第170章／第171章”空壳后紧接番外标题，自动切分产生3个空单元；语义统计已排除空壳影响",
+    "源文件仅提供番外二至番外五；番外一未提供，无法确认其内容与功能",
+    "“作者有话要说”标签夹在正文中，但没有可独立分析的作者后记内容",
+    "未执行独立盲评；结局报告为证据化静态分析"
+  ],
+  "raw_text_packaged": false,
+  "independent_blind_review": false,
+  "profile_name": "《有匪》样本衍生文风",
+  "work_title": "有匪",
+  "author": "priest",
+  "publication_context": "晋江武侠言情，女性向读者",
+  "protagonist": {
+    "name": "谢允",
+    "identification_basis": "用户指定男主；正文核心关系与终局人物弧验证"
+  },
+  "analysis": {
+    "mode": "UPDATE_COMPLETE_ENDING",
+    "global_style_baseline": "沿用旧版171章壳全文统计；新跑完整语料用于完结与番外边界复核",
+    "terminal_arc_close_read": "第159—168章",
+    "provided_extras_close_read": [
+      "番外二",
+      "番外三",
+      "番外四",
+      "番外五"
+    ],
+    "ending_design_report": "ending-design.md",
+    "fidelity_grade": "B",
+    "independent_blind_review": false,
+    "ending_transfer_test_run": false
+  },
+  "publication_scope_note": "The source text is not distributed in this repository. Hash and aggregate coverage are retained only for reproducibility.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novel, characters, plots, settings, or original expression."
+}
