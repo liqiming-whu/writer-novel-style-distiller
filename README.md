@@ -2,7 +2,7 @@
 
 面向中文小说的文风蒸馏、主角魅力分析与完结收束设计 Skill。
 
-当前版本：`v1.1.0`
+当前版本：`v1.3.0`
 
 ## 功能
 
@@ -25,6 +25,12 @@
 - [`profiles/003-longzu-jiangnan/`](profiles/003-longzu-jiangnan/README.md)：《龙族1—4》样本衍生档案，含文笔与幽默审计、路明非代入机制、楚子航与绘梨衣角色魅力，以及四个卷级尾声分析。
 
 完整目录见 [`profiles/CATALOG.md`](profiles/CATALOG.md)。内置档案不含来源小说全文、清洗语料或连续长段原文。
+
+## 权威审计测试案例
+
+- [`LUXUN_AUDIT_BENCHMARK.md`](LUXUN_AUDIT_BENCHMARK.md)：鲁迅精选集部分样本的文笔与幽默审计金标准，用于回归测试来源隔离、跨文体分析、条件式幽默触发、评分和任务边界。
+- 该案例位于仓库根目录，**不是**内置文风档案，不进入 `profiles/`，不由 `SKILL.md` 自动加载，也不用于复制鲁迅思想、人格或历史身份。
+- 静态校验：`python3 scripts/validate_audit_benchmark.py`。
 
 ## 主要触发语
 
@@ -69,6 +75,7 @@ python3 scripts/package_skill.py ./job/deliverable/writer-sample-style-demo --ou
 ## 自检
 
 ```bash
+python3 scripts/validate_audit_benchmark.py
 python3 scripts/self_check.py
 python3 scripts/validate_builtin_profiles.py
 ```

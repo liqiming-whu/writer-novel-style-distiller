@@ -69,3 +69,13 @@ All rights in novels, characters, plots, distinctive passages and other literary
 - Names of the work and characters are used only to identify the subject of analysis.
 - Rights in the novels, characters, plot, settings and original expression remain with the author and relevant rights holders.
 - The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary works.
+
+### Root audit benchmark `LUXUN_AUDIT_BENCHMARK.md`
+
+- Analysis subject: selected literary texts by Lu Xun (`鲁迅`) from *Zhaohua Xishi* (`朝花夕拾`), *Wild Grass* (`野草`), *Call to Arms* (`呐喊`), *Wandering* (`彷徨`) and *Old Tales Retold* (`故事新编`).
+- The benchmark is a repository-root regression document, not a built-in style profile and not an automatically loaded author imitation asset.
+- It contains aggregate measurements, independently written critical analysis, score anchors, source-separation requirements and pass/fail criteria only.
+- It does **not** include the source TXT, normalized corpus, semantic units, close-reading packets, local paths or continuous substantial excerpts.
+- Non-Lu-Xun appendices and editorial teaching materials are explicitly excluded from the benchmark corpus.
+- The benchmark evaluates prose and humor mechanisms only; it does not claim to reproduce Lu Xun's thought, historical identity or public persona.
+- The repository MIT License applies to the original benchmark text and validation tooling, not to the underlying literary works or third-party editorial material.
