@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-24T06:31:21+08:00",
+  "profile_name": "《龙族1—4》样本衍生文风",
+  "work_title": "龙族",
+  "author": "江南",
+  "publication_context": "现代都市奇幻／青春幻想；输入EPUB合订七册，其中龙族III分上中下，另含独立前传《哀悼之翼》",
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.epub",
+      "path": null,
+      "format": "epub",
+      "encoding": "epub-spine",
+      "sha256": "8249f8ddbd79a8cdc88542fa174a49b6125c366f671529a1e87d4c4d54e76d98",
+      "file_size_bytes": 5902095,
+      "ingest_raw_characters": 2203559,
+      "ingest_clean_characters": 2203112,
+      "epub_spine_items": 157,
+      "epub_navigation_items": 152,
+      "publication_book_count": 7,
+      "warnings": [
+        "通用摄取脚本把EPUB目录页与正文标题再次切分，产生255个单位和大量标题空壳；正式统计改用NCX／spine语义提取副本",
+        "卷三在纸质版分上中下，但合并为同一叙事卷；只计算卷三末尾一个主卷尾声",
+        "合订本另含《哀悼之翼》及其尾声，作为辅助前传，不计入四卷主语料与四个主卷尾声"
+      ]
+    }
+  ],
+  "corpus": {
+    "full_text_covered": true,
+    "raw_ingest_effective_characters": 2200403,
+    "effective_characters": 2139661,
+    "unit_count": 109,
+    "main_volume_count": 4,
+    "main_volume_epilogue_count": 4,
+    "unit_kinds": {
+      "chapter": 105,
+      "epilogue": 4
+    },
+    "chapter_detection_confident": true,
+    "early_mid_late_compared": true,
+    "metrics_file": null,
+    "semantic_extraction": true,
+    "semantic_extraction_note": "按EPUB NCX与spine逐个提取正文XHTML，排除封面、版权、目录、纸质编目、作者序言；保留四卷正文并将《哀悼之翼》隔离为辅助前传。原EPUB未修改。",
+    "auxiliary_prequel": {
+      "title": "龙族前传·哀悼之翼",
+      "effective_characters": 56219,
+      "unit_count": 9,
+      "metrics_file": null,
+      "used_for": "边界复核，不并入主评分基线"
+    }
+  },
+  "volume_metrics": {
+    "卷一": {
+      "units": 12,
+      "effective_characters": 262810,
+      "dialogue_ratio": 0.366,
+      "weighted_sentence_mean": 23.96,
+      "weighted_paragraph_mean": 50.82,
+      "punctuation_per_10k": {
+        "！": 53.42,
+        "？": 69.06,
+        "……": 29.87,
+        "——": 0.46
+      }
+    },
+    "卷二": {
+      "units": 22,
+      "effective_characters": 413067,
+      "dialogue_ratio": 0.3594,
+      "weighted_sentence_mean": 26.03,
+      "weighted_paragraph_mean": 63.78,
+      "punctuation_per_10k": {
+        "！": 45.63,
+        "？": 57.86,
+        "……": 32.25,
+        "——": 0.73
+      }
+    },
+    "卷三": {
+      "units": 58,
+      "effective_characters": 1137174,
+      "dialogue_ratio": 0.3366,
+      "weighted_sentence_mean": 31.89,
+      "weighted_paragraph_mean": 74.75,
+      "punctuation_per_10k": {
+        "！": 35.85,
+        "？": 39.42,
+        "……": 13.11,
+        "——": 0.21
+      }
+    },
+    "卷四": {
+      "units": 17,
+      "effective_characters": 326610,
+      "dialogue_ratio": 0.2664,
+      "weighted_sentence_mean": 32.4,
+      "weighted_paragraph_mean": 63.1,
+      "punctuation_per_10k": {
+        "！": 49.39,
+        "？": 53.76,
+        "……": 22.99,
+        "——": 1.62
+      }
+    }
+  },
+  "sampling": {
+    "close_read_units": [
+      {
+        "unit_index": 1,
+        "title": "第1章　卷一·火之晨曦·序章　白帝城",
+        "reason": "卷一开场；弃族／兄弟母题；梦境与庄严语域"
+      },
+      {
+        "unit_index": 2,
+        "title": "第2章　卷一·火之晨曦·第一幕　卡塞尔之门",
+        "reason": "路明非入场；代入机制；校园喜剧与命运门槛"
+      },
+      {
+        "unit_index": 4,
+        "title": "第4章　卷一·火之晨曦·第三幕　恺撒",
+        "reason": "恺撒出场；传奇人物造型与权力喜剧"
+      },
+      {
+        "unit_index": 7,
+        "title": "第7章　卷一·火之晨曦·第六幕　星与花",
+        "reason": "日常转浪漫；烟花、关系外化与电影分镜"
+      },
+      {
+        "unit_index": 11,
+        "title": "第11章　卷一·火之晨曦·第十幕　七宗罪",
+        "reason": "卷一高潮；契约代价、行动反转与悲喜并置"
+      },
+      {
+        "unit_index": 12,
+        "title": "尾声　卷一·火之晨曦",
+        "reason": "卷一尾声全读；结果确认、日常复位与续卷钩子"
+      },
+      {
+        "unit_index": 13,
+        "title": "第1章　卷二·悼亡者之瞳·序幕　雨落狂流之暗",
+        "reason": "楚子航童年核心；父亲记忆、悔恨与孤独"
+      },
+      {
+        "unit_index": 14,
+        "title": "第2章　卷二·悼亡者之瞳·第一幕　生日蛋糕就是青春的墓碑",
+        "reason": "路明非生日；衰小孩处境与被忽视经验"
+      },
+      {
+        "unit_index": 18,
+        "title": "第6章　卷二·悼亡者之瞳·第五幕　蒲公英",
+        "reason": "楚子航家庭私面；照料型人格与纸人形象"
+      },
+      {
+        "unit_index": 19,
+        "title": "第7章　卷二·悼亡者之瞳·第六幕　防火防盗防师兄",
+        "reason": "楚子航／夏弥日常；对话错位与关系喜剧"
+      },
+      {
+        "unit_index": 21,
+        "title": "第9章　卷二·悼亡者之瞳·第八幕　康河上的叹息",
+        "reason": "昂热回忆、青春伤感与极短情绪落点"
+      },
+      {
+        "unit_index": 28,
+        "title": "第16章　卷二·悼亡者之瞳·第十五幕　幕后的人",
+        "reason": "路明非孤独平衡的旁观诊断；信息揭示"
+      },
+      {
+        "unit_index": 29,
+        "title": "第17章　卷二·悼亡者之瞳·第十六幕　It’s a Beautiful Day",
+        "reason": "恺撒与诺诺；心理外化及抒情后自拆"
+      },
+      {
+        "unit_index": 31,
+        "title": "第19章　卷二·悼亡者之瞳·第十八幕　迷宫",
+        "reason": "迷宫、恐怖与关系压力"
+      },
+      {
+        "unit_index": 32,
+        "title": "第20章　卷二·悼亡者之瞳·第十九幕　耶梦加得",
+        "reason": "楚子航与夏弥并肩及身份逆转"
+      },
+      {
+        "unit_index": 33,
+        "title": "第21章　卷二·悼亡者之瞳·第二十幕　凡王之血必以剑终",
+        "reason": "卷二高潮；楚子航的行动伦理与牺牲"
+      },
+      {
+        "unit_index": 34,
+        "title": "尾声　卷二·悼亡者之瞳",
+        "reason": "卷二尾声全读；死小孩母题、楚子航余波与新悬念"
+      },
+      {
+        "unit_index": 35,
+        "title": "第1章　卷三·黑月之潮·楔子",
+        "reason": "卷三前史楔子；童话残酷物语入口"
+      },
+      {
+        "unit_index": 38,
+        "title": "第4章　卷三·黑月之潮·第三章　零号",
+        "reason": "零号与雷娜塔；救援承诺与童话式情感"
+      },
+      {
+        "unit_index": 42,
+        "title": "第8章　卷三·黑月之潮·第七章　新约",
+        "reason": "前史终点；新约、孤独与命运框架"
+      },
+      {
+        "unit_index": 44,
+        "title": "第10章　卷三·黑月之潮·第二章　无解之结",
+        "reason": "恺撒婚礼计划；宏大浪漫落到生活细节"
+      },
+      {
+        "unit_index": 48,
+        "title": "第14章　卷三·黑月之潮·第六章　王牌组合",
+        "reason": "日本分部与制度／战斗双层叙事"
+      },
+      {
+        "unit_index": 53,
+        "title": "第19章　卷三·黑月之潮·第十一章　格陵兰阴影",
+        "reason": "源稚生普通生活欲望；人物物件隐喻"
+      },
+      {
+        "unit_index": 58,
+        "title": "第24章　卷三·黑月之潮·第一章　风与潮之夜",
+        "reason": "海底高潮；电影分镜与异类视角"
+      },
+      {
+        "unit_index": 62,
+        "title": "第28章　卷三·黑月之潮·第五章　荆棘丛中的男孩",
+        "reason": "绘梨衣／源稚生初始关系；人偶表象与敏感内核"
+      },
+      {
+        "unit_index": 64,
+        "title": "第30章　卷三·黑月之潮·第七章　樱花与红莲",
+        "reason": "牛郎店群像喜剧与职业尊严"
+      },
+      {
+        "unit_index": 68,
+        "title": "第34章　卷三·黑月之潮·第十一章　末代皇帝&最后一个克格勃",
+        "reason": "正义、领导责任与兄弟冲突"
+      },
+      {
+        "unit_index": 71,
+        "title": "第37章　卷三·黑月之潮·第三章　古事记",
+        "reason": "东京爱情故事；含蓄抒情与故事套层"
+      },
+      {
+        "unit_index": 76,
+        "title": "第42章　卷三·黑月之潮·第八章　家庭晚宴",
+        "reason": "绘梨衣出逃后关系；强大与受控、旅行日常"
+      },
+      {
+        "unit_index": 77,
+        "title": "第43章　卷三·黑月之潮·第九章　我们都是小怪兽",
+        "reason": "小怪兽共谋；婚礼幻景、力量失控与安抚"
+      },
+      {
+        "unit_index": 78,
+        "title": "第44章　卷三·黑月之潮·第十章　迎着阳光盛大逃亡",
+        "reason": "绘梨衣主动返家前；自由时间与普通欲望"
+      },
+      {
+        "unit_index": 79,
+        "title": "第45章　卷三·黑月之潮·第十一章　来自北极的故人",
+        "reason": "梅津寺町；共同生活、日落与离别"
+      },
+      {
+        "unit_index": 83,
+        "title": "第49章　卷三·黑月之潮·第十五章　鬼之路",
+        "reason": "樱的选择与坠落；温情动作和悲剧反转"
+      },
+      {
+        "unit_index": 85,
+        "title": "第51章　卷三·黑月之潮·第十七章　老板娘",
+        "reason": "神陨；多线高潮与死亡美学"
+      },
+      {
+        "unit_index": 88,
+        "title": "第54章　卷三·黑月之潮·第二十章　漆黑之日",
+        "reason": "达摩克利斯之剑；大场面信息组织"
+      },
+      {
+        "unit_index": 90,
+        "title": "第56章　卷三·黑月之潮·第二十二章　樱怒之日",
+        "reason": "绘梨衣危机与路明非迟到的选择"
+      },
+      {
+        "unit_index": 91,
+        "title": "第57章　卷三·黑月之潮·第二十三章　天谴",
+        "reason": "白王终战；路鸣泽与悲剧代价"
+      },
+      {
+        "unit_index": 92,
+        "title": "尾声　卷三·黑月之潮",
+        "reason": "卷三尾声全读；绘梨衣痕迹回返与朋友告别"
+      },
+      {
+        "unit_index": 93,
+        "title": "第1章　卷四·奥丁之渊·楔子　通往世界尽头的航路",
+        "reason": "卷四开篇；楚子航消失、世界改写与追索动机"
+      },
+      {
+        "unit_index": 94,
+        "title": "第2章　卷四·奥丁之渊·第一章　狂欢夜之舞",
+        "reason": "狂欢夜；群像与异常感建立"
+      },
+      {
+        "unit_index": 98,
+        "title": "第6章　卷四·奥丁之渊·第五章　恰同学少年",
+        "reason": "恰同学少年；青春旧地与身份错置"
+      },
+      {
+        "unit_index": 99,
+        "title": "第7章　卷四·奥丁之渊·第六章　苏小妍",
+        "reason": "苏小妍；楚子航的关系痕迹与家庭私面"
+      },
+      {
+        "unit_index": 102,
+        "title": "第10章　卷四·奥丁之渊·第九章　无限循环之梦",
+        "reason": "无限循环梦；悬疑、心理恐怖与重置机制"
+      },
+      {
+        "unit_index": 103,
+        "title": "第11章　卷四·奥丁之渊·第十章　楚天骄",
+        "reason": "楚天骄线；父子记忆与最后证据"
+      },
+      {
+        "unit_index": 107,
+        "title": "第15章　卷四·奥丁之渊·第十四章　亡命之徒无路可退",
+        "reason": "亡命追索；路明非主动性上升"
+      },
+      {
+        "unit_index": 108,
+        "title": "第16章　卷四·奥丁之渊·第十五章　王从天降愤怒狰狞",
+        "reason": "卷四高潮；苏小妍记忆抗拒与奥丁威压"
+      },
+      {
+        "unit_index": 109,
+        "title": "尾声　卷四·奥丁之渊",
+        "reason": "卷四短尾声全读；芬格尔身份翻面及硬悬念停止"
+      }
+    ],
+    "close_read_unit_count": 47,
+    "main_epilogues_fully_read": true,
+    "auxiliary_prequel_units_checked": 9,
+    "selection_reasons": [
+      "四卷早中晚分层",
+      "路明非代入机制",
+      "楚子航高人气机制",
+      "绘梨衣高人气机制",
+      "日常／关系／战斗／信息／恐怖／抒情场景",
+      "四个主卷尾声全覆盖"
+    ]
+  },
+  "character_analysis": {
+    "narrative_protagonist": {
+      "name": "路明非",
+      "identification_basis": "用户明确指定分析方向，并由全书最高提及量、持续贴身视角与四卷行动主线验证",
+      "analysis_goal": "读者代入／投射机制，不预设以受喜爱为首要目标"
+    },
+    "high_popularity_characters": [
+      {
+        "name": "楚子航",
+        "user_observation": "高人气角色",
+        "reader_reception_data_collected": false
+      },
+      {
+        "name": "上杉绘梨衣",
+        "user_observation": "高人气角色",
+        "reader_reception_data_collected": false
+      }
+    ],
+    "mention_counts_main_corpus": {
+      "路明非": 7089,
+      "楚子航": 3317,
+      "上杉绘梨衣_文本常用绘梨衣": 790,
+      "恺撒": 3579,
+      "诺诺": 2016
+    },
+    "reception_boundary": "高人气判断来自用户；本轮未抓取评论、投票、销量分层或读者问卷，分析解释文本为何具备受欢迎条件，不宣称实证因果。"
+  },
+  "completion": {
+    "status": "ongoing",
+    "basis": "user_explicit_current_four_volumes",
+    "user_explicitly_declared": false,
+    "main_ending_present": false,
+    "main_ending_form": null,
+    "epilogue_present": true,
+    "epilogue_scope": "四个卷级尾声，不等同全书最终尾声",
+    "extras_present": true,
+    "author_afterword_present": false,
+    "terminal_arc_units": [],
+    "main_ending_units": [],
+    "epilogue_units": [
+      {
+        "unit_index": 12,
+        "title": "尾声　卷一·火之晨曦",
+        "kind": "epilogue",
+        "sha256": "80fc8a28219191e8264d7e9d418e98254ab7fdde83ee4014e0b77ebfebba2c29",
+        "semantic_label": "卷级尾声"
+      },
+      {
+        "unit_index": 34,
+        "title": "尾声　卷二·悼亡者之瞳",
+        "kind": "epilogue",
+        "sha256": "b6987b654441b90e53fb986dfa76409ae9b72ba6e0a431396758bcc700040e63",
+        "semantic_label": "卷级尾声"
+      },
+      {
+        "unit_index": 92,
+        "title": "尾声　卷三·黑月之潮",
+        "kind": "epilogue",
+        "sha256": "83968c307c45d8042a434efdecb0ef1066a5fd19d005fc17a278209a087b7489",
+        "semantic_label": "卷级尾声"
+      },
+      {
+        "unit_index": 109,
+        "title": "尾声　卷四·奥丁之渊",
+        "kind": "epilogue",
+        "sha256": "fd910270d960c7735af7135ddebe274bb7662ac1199ffc650b9356bcbaff37e5",
+        "semantic_label": "卷级尾声"
+      }
+    ],
+    "extra_units": [
+      {
+        "title": "龙族前传·哀悼之翼",
+        "kind": "auxiliary_prequel",
+        "unit_count": 9,
+        "semantic_label": "合订本独立前传，不计作第五主卷"
+      }
+    ],
+    "author_afterword_units": [],
+    "missing_or_uncertain_materials": [
+      "系列当前语料仅覆盖用户指定的四卷，不据此认定全书完结",
+      "输入未提供全书最终结局；不得从四个卷级尾声推断终局闭环"
+    ],
+    "coverage": {
+      "main_ending_analyzed": false,
+      "epilogue_analyzed": true,
+      "extras_checked": true,
+      "extras_analyzed": false
+    }
+  },
+  "limitations": [
+    "EPUB为合订七册，卷三分上中下，另附独立前传；已进行语义分层，避免把纸质分册误算成叙事卷数",
+    "原EPUB正文有少量缺字、异体字、空格和编码噪声；句法判断以跨位置规律为准",
+    "作品状态按“当前四卷、系列未完结”处理；不生成全书结局规律，只分析四个卷级尾声",
+    "路明非的“代入优先”及楚子航、绘梨衣的“高人气”均为用户提出的分析假设；未执行外部读者接受史调查",
+    "未执行独立盲评、生成回放或角色魅力迁移测试；当前保真等级为B·可复用"
+  ],
+  "analysis": {
+    "mode": "DISTILL_ONGOING_FOUR_VOLUME_EPILOGUES",
+    "global_style_baseline": "四卷主语料语义统计；独立前传仅作边界复核",
+    "protagonist_mode": "identification_projection",
+    "popular_character_focus": [
+      "楚子航",
+      "上杉绘梨衣"
+    ],
+    "fidelity_grade": "B",
+    "independent_blind_review": false,
+    "multi_scene_metric_replay": false,
+    "protagonist_charm_transfer_test_run": false,
+    "ending_transfer_test_run": false
+  },
+  "raw_text_packaged": false,
+  "independent_blind_review": false,
+  "publication_scope_note": "The source EPUB, extracted XHTML, normalized corpus, semantic work copy and private analysis workdirs are not distributed. Hashes and aggregate coverage are retained only for reproducibility.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novels, characters, plots, settings or original expression."
+}

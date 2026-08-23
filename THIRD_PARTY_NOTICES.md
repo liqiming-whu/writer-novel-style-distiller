@@ -60,3 +60,12 @@ All rights in novels, characters, plots, distinctive passages and other literary
 - Names of the work and characters are used only to identify the subject of analysis.
 - Rights in the novel, characters, plot, settings and original expression remain with the author and relevant rights holders.
 - The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary work.
+
+### Built-in profile `003-longzu-jiangnan`
+
+- Analysis subject: volumes 1–4 of the *Dragon Raja* (`龙族`) novel series by Jiang Nan (`江南`).
+- This repository does **not** include the source EPUB, novel text, extracted XHTML, normalized corpus, chapter extracts or other substitute copies.
+- The built-in profile contains independently written critical analysis, aggregate observations, minimal evidence locators and reusable writing mechanisms.
+- Names of the work and characters are used only to identify the subject of analysis.
+- Rights in the novels, characters, plot, settings and original expression remain with the author and relevant rights holders.
+- The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary works.
