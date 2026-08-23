@@ -20,7 +20,7 @@
 
 ```text
 README.md
-style-profile.md              # 含文笔审计与八项量化评分
+style-profile.md              # 含文笔审计；幽默明显时含条件式幽默感审计
 application-card.md
 protagonist-charm.md
 ending-design.md

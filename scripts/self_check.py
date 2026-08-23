@@ -98,6 +98,7 @@ def main() -> int:
         else:
             for md in child.rglob("*.md"):
                 text = md.read_text(encoding="utf-8")
+                text = text.replace("{{OPTIONAL_HUMOR_AUDIT_SECTION}}", "")
                 text = re.sub(r"\{\{[A-Z0-9_]*_SCORE\}\}", "8.0", text)
                 text = re.sub(r"\{\{[^{}]+\}\}", "测试内容", text)
                 md.write_text(text, encoding="utf-8")

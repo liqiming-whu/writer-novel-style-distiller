@@ -98,6 +98,36 @@ def main() -> int:
                 if not score_match or not 0 <= float(score_match.group(1)) <= 10:
                     errors.append(f"{rel_profile}: invalid prose audit score for '{dimension}'")
 
+        humor_heading = "## 幽默感审计"
+        if humor_heading in style_text:
+            if not (
+                style_text.find("## 文笔审计与量化评分")
+                < style_text.find(humor_heading)
+                < style_text.find("## 稳定文风核心")
+            ):
+                errors.append(f"{rel_profile}: humor audit missing or misplaced")
+            humor = style_text.split(humor_heading, 1)[-1].split("\n## ", 1)[0]
+            humor_sections = [
+                "审计结论", "主要幽默机制", "节奏与场景分布", "角色分工与声音差异",
+                "与情绪和关系的协同", "读者位置与伦理边界", "量化评分", "可迁移方法与失效风险",
+            ]
+            for section in humor_sections:
+                if section not in humor:
+                    errors.append(f"{rel_profile}: humor audit missing section '{section}'")
+            humor_dimensions = [
+                "机制多样性", "人物绑定度", "节奏与时机", "声音区分度",
+                "严肃场景兼容", "克制与反漫画化", "情绪转化能力", "综合幽默完成度",
+            ]
+            normalized_humor = humor.replace("**", "")
+            for dimension in humor_dimensions:
+                score_match = re.search(
+                    rf"^\|\s*{re.escape(dimension)}\s*\|\s*(\d+(?:\.\d+)?)\s*/\s*10\s*\|",
+                    normalized_humor,
+                    re.M,
+                )
+                if not score_match or not 0 <= float(score_match.group(1)) <= 10:
+                    errors.append(f"{rel_profile}: invalid humor audit score for '{dimension}'")
+
         manifest_path = profile / "source-manifest.json"
         try:
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))

@@ -4,7 +4,7 @@
 
 ## 内容
 
-- [完整文风操作系统与文笔量化审计](style-profile.md)
+- [完整文风操作系统、文笔量化审计与幽默感审计](style-profile.md)
 - [快速执行卡](application-card.md)
 - [洛元秋主角魅力与读者依恋机制](protagonist-charm.md)
 - [第225章主线结局与第226章番外设计参考](ending-design.md)
