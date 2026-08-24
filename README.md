@@ -4,6 +4,12 @@
 
 当前版本：`v1.5.0`
 
+## 标准Skill仓库布局
+
+可安装、可分发的Skill以 [`skills/writer-novel-style-distiller/`](skills/writer-novel-style-distiller/) 为权威目录，目录内直接包含 `SKILL.md`、运行脚本、参考框架、模板、内置档案和比较报告。
+
+仓库根目录只保留仓库说明、版本记录、CI、回归基准与布局校验；运行时文件只在 `skills/writer-novel-style-distiller/` 保存，不维护根目录兼容副本。`benmark/` 和 `LUXUN_AUDIT_BENCHMARK.md` 属于仓库级审计测试，不进入Skill安装目录。
+
 ## 功能
 
 - 全文读取与清洗：TXT、Markdown、HTML、DOCX、EPUB。
@@ -20,19 +26,19 @@
 
 ## 内置可复用档案
 
-- [`profiles/001-youfei-priest/`](profiles/001-youfei-priest/README.md)：《有匪》样本衍生档案，含文笔量化审计、完整文风、谢允魅力、主线结局与源文件所含番外分析。
-- [`profiles/002-hanshanji-kanchangtingwan/`](profiles/002-hanshanji-kanchangtingwan/README.md)：《寒山纪》样本衍生档案，含文笔量化审计、完整文风、洛元秋魅力、第225章结局与第226章番外分析。
-- [`profiles/003-longzu-jiangnan/`](profiles/003-longzu-jiangnan/README.md)：《龙族1—4》样本衍生档案，含文笔与幽默审计、路明非代入机制、楚子航与绘梨衣角色魅力，以及四个卷级尾声分析。
-- [`profiles/004-sanqianji-xitu/`](profiles/004-sanqianji-xitu/README.md)：《三千纪》样本衍生档案，含文笔与幽默审计、月儿兰／格林身份连续性与读者依恋机制，以及未完结、插篇和外篇边界登记。
-- [`profiles/005-yifutelona-jiuri-juzer/`](profiles/005-yifutelona-jiuri-juzer/README.md)：《伊芙特罗娜的旧日见闻》样本衍生档案，含文笔与幽默审计、伊芙魅力与身份连续性、未完结关系边界，以及第366章下架事件的分层证据登记。
-- [`profiles/006-shenguozhishang-jianyisijian/`](profiles/006-shenguozhishang-jianyisijian/README.md)：《神国之上》样本衍生档案，含文笔与幽默审计、六位核心女性角色魅力、482章增量修正、完整终局与文明停止点分析。
+- [`profiles/001-youfei-priest/`](skills/writer-novel-style-distiller/profiles/001-youfei-priest/README.md)：《有匪》样本衍生档案，含文笔量化审计、完整文风、谢允魅力、主线结局与源文件所含番外分析。
+- [`profiles/002-hanshanji-kanchangtingwan/`](skills/writer-novel-style-distiller/profiles/002-hanshanji-kanchangtingwan/README.md)：《寒山纪》样本衍生档案，含文笔量化审计、完整文风、洛元秋魅力、第225章结局与第226章番外分析。
+- [`profiles/003-longzu-jiangnan/`](skills/writer-novel-style-distiller/profiles/003-longzu-jiangnan/README.md)：《龙族1—4》样本衍生档案，含文笔与幽默审计、路明非代入机制、楚子航与绘梨衣角色魅力，以及四个卷级尾声分析。
+- [`profiles/004-sanqianji-xitu/`](skills/writer-novel-style-distiller/profiles/004-sanqianji-xitu/README.md)：《三千纪》样本衍生档案，含文笔与幽默审计、月儿兰／格林身份连续性与读者依恋机制，以及未完结、插篇和外篇边界登记。
+- [`profiles/005-yifutelona-jiuri-juzer/`](skills/writer-novel-style-distiller/profiles/005-yifutelona-jiuri-juzer/README.md)：《伊芙特罗娜的旧日见闻》样本衍生档案，含文笔与幽默审计、伊芙魅力与身份连续性、未完结关系边界，以及第366章下架事件的分层证据登记。
+- [`profiles/006-shenguozhishang-jianyisijian/`](skills/writer-novel-style-distiller/profiles/006-shenguozhishang-jianyisijian/README.md)：《神国之上》样本衍生档案，含文笔与幽默审计、六位核心女性角色魅力、482章增量修正、完整终局与文明停止点分析。
 
-完整目录见 [`profiles/CATALOG.md`](profiles/CATALOG.md)。内置档案不含来源小说全文、清洗语料或连续长段原文。
+完整目录见 [`profiles/CATALOG.md`](skills/writer-novel-style-distiller/profiles/CATALOG.md)。内置档案不含来源小说全文、清洗语料或连续长段原文。
 
 ## 横向比较报告
 
-- [`reports/builtin-six-profiles-grand-comparison.md`](reports/builtin-six-profiles-grand-comparison.md)：六份正式内置小说蒸馏档案的文笔、文风、幽默、人物魅力、女性群像、长篇工程与结局设计大横评。按任务边界明确排除鲁迅审计基准，也不把尚无正式内置档案的《剑来》暂定评分混入同口径表。
-- [`reports/youfei-hanshanji-longzu-jianlai-comparison.md`](reports/youfei-hanshanji-longzu-jianlai-comparison.md)：早期四作比较，其中《剑来》仍是外部暂定参照。
+- [`reports/builtin-six-profiles-grand-comparison.md`](skills/writer-novel-style-distiller/reports/builtin-six-profiles-grand-comparison.md)：六份正式内置小说蒸馏档案的文笔、文风、幽默、人物魅力、女性群像、长篇工程与结局设计大横评。按任务边界明确排除鲁迅审计基准，也不把尚无正式内置档案的《剑来》暂定评分混入同口径表。
+- [`reports/youfei-hanshanji-longzu-jianlai-comparison.md`](skills/writer-novel-style-distiller/reports/youfei-hanshanji-longzu-jianlai-comparison.md)：早期四作比较，其中《剑来》仍是外部暂定参照。
 
 ## 权威审计测试案例
 
@@ -54,28 +60,28 @@
 
 ## 安装到 Operit
 
-将仓库目录放到：
+将 `skills/writer-novel-style-distiller/` 目录复制到：
 
 ```text
 /sdcard/Download/Operit/skills/writer-novel-style-distiller/
 ```
 
-并确保该目录内直接存在 `SKILL.md`。在 Operit 的 Skill 列表中启用后，即可通过 `use_package` 加载。
+复制后应保证目标目录内直接存在 `SKILL.md`，不能把整个Git仓库作为Skill目录安装。在 Operit 的 Skill 列表中启用后，即可通过 `use_package` 加载。
 
 ## 工具链
 
 ```bash
-python3 scripts/ingest_novel.py novel.txt --output ./job/work
+python3 skills/writer-novel-style-distiller/scripts/ingest_novel.py novel.txt --output ./job/work
 
 # 只有用户明确说明作品已完结，或来源有可靠完结信息时才设置 complete：
-python3 scripts/ingest_novel.py novel.txt --output ./job/work \
+python3 skills/writer-novel-style-distiller/scripts/ingest_novel.py novel.txt --output ./job/work \
   --completion-status complete --completion-basis user_explicit
 
-python3 scripts/measure_style.py --workdir ./job/work
-python3 scripts/init_profile.py --output ./job/deliverable \
+python3 skills/writer-novel-style-distiller/scripts/measure_style.py --workdir ./job/work
+python3 skills/writer-novel-style-distiller/scripts/init_profile.py --output ./job/deliverable \
   --skill-name writer-sample-style-demo --profile-name 示例文风 --protagonist 主角名
-python3 scripts/validate_profile.py ./job/deliverable/writer-sample-style-demo
-python3 scripts/package_skill.py ./job/deliverable/writer-sample-style-demo --output ./dist
+python3 skills/writer-novel-style-distiller/scripts/validate_profile.py ./job/deliverable/writer-sample-style-demo
+python3 skills/writer-novel-style-distiller/scripts/package_skill.py ./job/deliverable/writer-sample-style-demo --output ./dist
 ```
 
 `work/` 包含私有分析语料，不得打包。交付 Skill 仅包含抽象文风规则、魅力机制、结局设计机制、证据定位和来源清单。
@@ -84,15 +90,15 @@ python3 scripts/package_skill.py ./job/deliverable/writer-sample-style-demo --ou
 
 ```bash
 python3 scripts/validate_audit_benchmark.py
-python3 scripts/self_check.py
-python3 scripts/validate_builtin_profiles.py
+python3 skills/writer-novel-style-distiller/scripts/validate_builtin_profiles.py
+python3 skills/writer-novel-style-distiller/scripts/self_check.py
 ```
 
 ## 公开与版权边界
 
-- 仓库采用 MIT License，覆盖本项目原创代码与原创分析文档。
+- 仓库采用 [MIT License](skills/writer-novel-style-distiller/LICENSE)，覆盖本项目原创代码与原创分析文档。
 - 来源小说、角色、剧情、专属设定及原文表达的权利归相应作者和权利人所有。
 - 内置档案仅用于研究和迁移抽象写作机制，不授予复制、传播或改编来源文学作品的权利。
 - 不得使用本项目冒充原作者或生成所谓官方续作。
 
-第三方项目与文学作品声明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
+第三方项目与文学作品声明见 [`THIRD_PARTY_NOTICES.md`](skills/writer-novel-style-distiller/THIRD_PARTY_NOTICES.md)。

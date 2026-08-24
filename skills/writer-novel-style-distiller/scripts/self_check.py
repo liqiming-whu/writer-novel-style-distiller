@@ -30,9 +30,10 @@ def main() -> int:
             failures.append(f"syntax error in {py.name}: {result.stderr.strip()}")
 
     benchmark_validator = scripts / "validate_audit_benchmark.py"
-    result = run([sys.executable, str(benchmark_validator)])
-    if result.returncode:
-        failures.append("authoritative audit benchmark validation failed: " + result.stdout + result.stderr)
+    if benchmark_validator.is_file():
+        result = run([sys.executable, str(benchmark_validator)])
+        if result.returncode:
+            failures.append("authoritative audit benchmark validation failed: " + result.stdout + result.stderr)
 
     builtin_validator = scripts / "validate_builtin_profiles.py"
     result = run([sys.executable, str(builtin_validator)])

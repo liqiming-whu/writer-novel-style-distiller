@@ -8,3 +8,6 @@ sources/
 dist/
 *.tmp
 .DS_Store
+
+# Local-only benchmark source texts; never commit or package.
+benmark/*.txt

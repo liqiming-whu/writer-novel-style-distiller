@@ -2,6 +2,20 @@
 
 ## [Unreleased]
 
+### Added
+
+- 新增标准仓库入口 `skills/writer-novel-style-distiller/`，其中自包含 `SKILL.md`、运行脚本、参考框架、模板、六份内置档案和比较报告，可直接作为Skill目录安装。
+- 新增 `scripts/validate_standard_skill_layout.py`，校验标准目录完整性、单一来源约束和仓库级基准资产隔离。
+
+### Changed
+
+- CI改为从标准Skill目录执行内置档案校验与端到端自检；仓库根目录继续单独验证鲁迅审计基准。
+- 鲁迅审计基准升级为 `luxun-selected-prose-humor-v2`：综合文笔和幽默改用9.6、9.7参考中心与宽容区间，不再把小数贴合当成唯一通过条件。
+
+### Security and copyright
+
+- `benmark/` 中的本地来源TXT继续由 `.gitignore` 排除，不复制进标准Skill目录，不进入提交、Release或安装包。
+
 ## [1.5.0] - 2026-08-24
 
 ### Added

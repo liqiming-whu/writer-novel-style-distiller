@@ -14,7 +14,9 @@ jobs:
           python-version: "3.12"
       - name: Validate authoritative audit benchmark
         run: python3 scripts/validate_audit_benchmark.py
+      - name: Validate standard skill repository layout
+        run: python3 scripts/validate_standard_skill_layout.py
       - name: Validate built-in profiles
-        run: python3 scripts/validate_builtin_profiles.py
+        run: python3 skills/writer-novel-style-distiller/scripts/validate_builtin_profiles.py
       - name: Run end-to-end self check
-        run: python3 scripts/self_check.py
+        run: python3 skills/writer-novel-style-distiller/scripts/self_check.py
