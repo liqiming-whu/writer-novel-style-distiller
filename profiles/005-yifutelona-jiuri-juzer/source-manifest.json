@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-24T00:00:00+00:00",
+  "profile_name": "《伊芙特罗娜的旧日见闻》样本衍生文风",
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.txt",
+      "path": null,
+      "format": "txt",
+      "encoding": "utf-8-sig",
+      "sha256": "f6da29952f7ad05918c4832b557ce2ea241b3ab7c3d8a738826fcdb3fba6293e",
+      "bytes": 5463059,
+      "decoded_characters": 1841167,
+      "lines": 27970,
+      "replacement_characters": 0
+    }
+  ],
+  "supplementary_evidence": [
+    {
+      "source_id": "U01",
+      "type": "user_statement",
+      "scope": "第366章下架原因、情节概述与读者争议",
+      "claims": [
+        "第366章因尺度问题被菠萝包官方下架",
+        "该章写到醉酒后的伊芙被侍女路斯蒂娅撞破自慰，路斯蒂娅以此施压，伊芙在半推半就状态下与其发生首次性关系",
+        "一部分读者因首次性关系对象并非长期铺垫的艾琳德或雨切，而是出场较晚的路斯蒂娅，认为情节草率并将其视为毒点",
+        "一部分读者使用不庄重、不再是好女孩或失去清白等道德化表述评价伊芙"
+      ],
+      "raw_chapter_text_provided": false,
+      "independently_verified": false,
+      "adjacent_text_corroboration": "第367—369章可验证自慰被撞破、伊芙曾担忧要挟、路斯蒂娅将威胁解释为调情、伊芙提及身体满足与心乱、双方继续私下谈话且伊芙后来主动亲吻路斯蒂娅；这些余波不能重构第366章的具体过程。"
+    }
+  ],
+  "corpus": {
+    "full_text_covered": false,
+    "provided_file_fully_covered": true,
+    "known_unavailable_published_chapters": [
+      366
+    ],
+    "effective_characters": 1753037,
+    "paragraphs": 27210,
+    "sentences": 50558,
+    "unit_type": "semantic_chapter",
+    "unit_count": 378,
+    "chapter_number_min": 1,
+    "chapter_number_max": 379,
+    "missing_chapter_numbers": [
+      366
+    ],
+    "early_mid_late_compared": true,
+    "weighted_dialogue_ratio": 0.2786,
+    "metrics_file": null,
+    "semantic_segmentation_file": null
+  },
+  "segmentation": {
+    "initial_automatic_unit_count": 314,
+    "initial_unit_type": "overlapping_analysis_window",
+    "reviewed_semantic_unit_count": 378,
+    "manual_title_reconstruction": {
+      "chapters_1_to_28": true,
+      "chapters_30_to_39": true,
+      "basis": "stable standalone title lines in supplied text"
+    },
+    "chapter_366_present": false,
+    "chapter_366_status": "removed_from_platform_according_to_user",
+    "chapter_366_removal_basis": "user_statement: 菠萝包官方因尺度问题下架",
+    "chapter_366_text_available_for_analysis": false,
+    "chapter_number_gaps_preserved": true,
+    "missing_chapters_invented": false,
+    "notes": [
+      "初次自动摄取因早期章节标题无统一编号而切成314个重叠窗口；交付统计改用人工复核后的378个语义章节。",
+      "源文件从第365章直接跳至第367章；用户补充说明第366章因尺度问题被菠萝包官方下架。档案只登记用户概述和第367—369章可验证余波，不补写、不重编号，也不把概述计入全文指标。"
+    ]
+  },
+  "normalization": {
+    "semantic_copy_only": true,
+    "raw_source_modified": false,
+    "private_use_title_icons_observed": 3,
+    "decorative_star_symbols_observed": 39,
+    "replacement_characters_observed": 0,
+    "author_score_penalty_for_source_noise": false
+  },
+  "sampling": {
+    "close_read_unit_count": 26,
+    "close_read_chapters": [
+      1,
+      2,
+      8,
+      15,
+      29,
+      42,
+      51,
+      73,
+      78,
+      105,
+      127,
+      148,
+      165,
+      183,
+      205,
+      214,
+      228,
+      251,
+      268,
+      280,
+      293,
+      303,
+      321,
+      340,
+      365,
+      379
+    ],
+    "selection_reasons": [
+      "开篇、第一阶段身份建立与伊芙初始吸引钩",
+      "早中晚分层覆盖及当前连载末章",
+      "行动、日常、家庭、政治、历史说明、哲思、性别身体与亲密关系场景",
+      "对白、长句、长段、问号、破折号、视觉、心理与幽默高值章节",
+      "伊芙—南芬、伊芙—雨切、伊芙—艾琳德及女性同伴关系样本"
+    ],
+    "coverage": [
+      "开篇变身与身份连续性",
+      "学院及家庭日常",
+      "战斗、旅行与政治行动",
+      "旧纪元历史和世界设定说明",
+      "百合倾向、婚姻讨论与未定情感归宿",
+      "后期洛明各领主及圣女身份"
+    ]
+  },
+  "protagonist": {
+    "name": "伊芙·哈维因",
+    "usual_name": "伊芙",
+    "identification_basis": "长期主要视角、身份谜题、关系网络、政治行动与人物弧中心",
+    "identity_continuity": "原三十余岁男性上班族的意识与记忆进入少女身体后持续为同一主体；档案不把前身与伊芙拆成两名人物。",
+    "reader_reception_claim": {
+      "claim": "伊芙受到广大读者欢迎且人气很高",
+      "source": "user_statement",
+      "external_reception_research_run": false
+    },
+    "reader_controversy_claim": {
+      "event": "第366章伊芙与路斯蒂娅发生首次性关系",
+      "reported_reception": "用户称该章引发极大争议；一部分读者因对象不是长期铺垫的艾琳德或雨切、推进带醉酒与施压色彩而认为伊芙草率、不庄重、不再是好女孩，并将其视为毒点。",
+      "source": "user_statement",
+      "external_reception_research_run": false,
+      "analytical_boundary": "清白、好女孩等属于部分读者的道德化评价，不作为档案对女性角色价值的客观判准；更可验证的叙事问题是期待兑现、关系铺垫、同意边界、主角能动性与事后余波。"
+    }
+  },
+  "publication": {
+    "platform": "菠萝包",
+    "author": "橘赭Juzer",
+    "genre_notes": [
+      "变身",
+      "百合"
+    ],
+    "relationship_outcome": "unknown",
+    "relationship_outcome_note": "嫁人或保持单身目前不明；文本存在对艾琳德的同性情感承认、多名男性追求者与婚姻讨论。用户补充称第366章伊芙与路斯蒂娅发生首次性关系，第367—369章可验证两人关系余波与伊芙后续主动亲吻，但该事件不等同于最终伴侣或终局选择。"
+  },
+  "completion": {
+    "status": "ongoing",
+    "basis": "user_explicit_unfinished",
+    "user_explicitly_declared": true,
+    "main_ending_present": false,
+    "epilogue_present": false,
+    "extras_present": null,
+    "author_afterword_present": null,
+    "terminal_arc_units": [],
+    "main_ending_units": [],
+    "epilogue_units": [],
+    "extra_units": [],
+    "author_afterword_units": [],
+    "coverage": {
+      "main_ending_analyzed": false,
+      "epilogue_analyzed": false,
+      "extras_checked": false,
+      "extras_analyzed": false
+    },
+    "ending_design_triggered": false
+  },
+  "audits": {
+    "prose": {
+      "triggered": true,
+      "overall_score": 8.3,
+      "dimensions": {
+        "language_control": 8.2,
+        "dialogue_craft": 8.4,
+        "atmosphere": 8.8,
+        "emotional_impact": 8.5,
+        "information_design": 7.6,
+        "relational_intimacy": 8.6,
+        "closure_restraint": 7.7
+      }
+    },
+    "humor": {
+      "triggered": true,
+      "overall_score": 8.2,
+      "basis": "身份反差、认真式冷幽默、群像拆台、军旅黑色幽默和宏大话语落回生活细节的反拍跨早中晚及多类场景复现。"
+    },
+    "protagonist_charm": {
+      "triggered": true,
+      "target": "伊芙·哈维因",
+      "framework_dimensions_covered": 14
+    }
+  },
+  "fidelity": {
+    "grade": "B",
+    "static_review": true,
+    "metric_replay": false,
+    "multi_scene_metric_replay": false,
+    "independent_blind_review": false,
+    "ending_transfer_test_run": false,
+    "reasons": [
+      "用户提供现存全文已完成全量统计",
+      "章节边界人工重切并保留第366章缺失",
+      "26章跨阶段、跨场景分层精读完成",
+      "第366章正文不可得；用户概述与第367—369章相邻余波只用于关系和接受争议补充，不进入文风统计与文笔评分",
+      "文笔、幽默与主角魅力审计完成",
+      "作品仍在连载，无法审计全书结局",
+      "未执行生成回放与独立盲评"
+    ]
+  },
+  "limitations": [
+    "源文件缺少第366章；用户明确说明该章因尺度问题被菠萝包官方下架，但未提供章节正文，因此不能核验具体措辞、场面节奏、同意过程或完整事后心理。",
+    "第367—369章保留与路斯蒂娅事件相关的可验证余波，但不能替代对第366章正文的直接精读。",
+    "作品仍在连载，无主线终局、尾声与最终感情归宿。",
+    "没有外部读者评论、投票、收藏或长期接受史数据；高人气和第366章争议程度均只登记用户陈述。",
+    "26个章节进入分层精读，全量378个语义章节均参与统计，但未逐章进行校勘学注释。",
+    "来源文本中的平台装饰符号不计入作者文笔扣分。"
+  ],
+  "work_title": "伊芙特罗娜的旧日见闻",
+  "author": "橘赭Juzer",
+  "publication_context": "菠萝包连载中的变身百合小说；档案覆盖用户提供TXT中的现存章节，第366章据用户说明因尺度问题被平台下架且正文未提供。",
+  "analysis": {
+    "mode": "DISTILL_ONGOING_WITH_KNOWN_REMOVED_CHAPTER",
+    "fidelity_grade": "B",
+    "protagonist_focus": "伊芙·哈维因的身份连续性、生活化魅力、关系预期与读者依恋机制",
+    "humor_audit_triggered": true,
+    "independent_blind_review": false,
+    "multi_scene_metric_replay": false,
+    "ending_transfer_test_run": false
+  },
+  "raw_text_packaged": false,
+  "independent_blind_review": false,
+  "publication_scope_note": "The source TXT, normalized corpus, semantic chapters, close-reading materials, local paths and private analysis workdirs are not distributed. Chapter 366 is represented only by a clearly labeled user statement and corroborating adjacent-chapter aftermath; no missing chapter text is reconstructed.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novel, characters, plot, settings or original expression."
+}

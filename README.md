@@ -2,7 +2,7 @@
 
 面向中文小说的文风蒸馏、主角魅力分析与完结收束设计 Skill。
 
-当前版本：`v1.3.0`
+当前版本：`v1.4.0`
 
 ## 功能
 
@@ -23,6 +23,8 @@
 - [`profiles/001-youfei-priest/`](profiles/001-youfei-priest/README.md)：《有匪》样本衍生档案，含文笔量化审计、完整文风、谢允魅力、主线结局与源文件所含番外分析。
 - [`profiles/002-hanshanji-kanchangtingwan/`](profiles/002-hanshanji-kanchangtingwan/README.md)：《寒山纪》样本衍生档案，含文笔量化审计、完整文风、洛元秋魅力、第225章结局与第226章番外分析。
 - [`profiles/003-longzu-jiangnan/`](profiles/003-longzu-jiangnan/README.md)：《龙族1—4》样本衍生档案，含文笔与幽默审计、路明非代入机制、楚子航与绘梨衣角色魅力，以及四个卷级尾声分析。
+- [`profiles/004-sanqianji-xitu/`](profiles/004-sanqianji-xitu/README.md)：《三千纪》样本衍生档案，含文笔与幽默审计、月儿兰／格林身份连续性与读者依恋机制，以及未完结、插篇和外篇边界登记。
+- [`profiles/005-yifutelona-jiuri-juzer/`](profiles/005-yifutelona-jiuri-juzer/README.md)：《伊芙特罗娜的旧日见闻》样本衍生档案，含文笔与幽默审计、伊芙魅力与身份连续性、未完结关系边界，以及第366章下架事件的分层证据登记。
 
 完整目录见 [`profiles/CATALOG.md`](profiles/CATALOG.md)。内置档案不含来源小说全文、清洗语料或连续长段原文。
 
@@ -39,7 +41,7 @@
 - 生成可复用文风 Skill
 - 分析主角为什么可爱／迷人／让人着迷
 - 这部小说已完结，请分析结局和番外
-- 使用 001／002／003 文风档案写作、改写或比较
+- 使用 001／002／003／004／005 文风档案写作、改写或比较
 - 从文笔角度审计并量化评分
 - 审计作品的幽默机制（仅在明显存在时）
 - 更新已有文风档案

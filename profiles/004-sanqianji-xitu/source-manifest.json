@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-24T00:00:00+00:00",
+  "profile_name": "《三千纪》样本衍生文风",
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.txt",
+      "path": null,
+      "format": "txt",
+      "encoding": "utf-8-sig",
+      "sha256": "3a09b86fe6834fe5c1712ebf3a2dd970a0c028b8e44910bc7595c1ed40716202",
+      "bytes": 1038699,
+      "decoded_characters": 349001,
+      "lines": 3271,
+      "replacement_characters": 0
+    }
+  ],
+  "corpus": {
+    "full_text_covered": true,
+    "effective_characters": 338224,
+    "paragraphs": 3214,
+    "sentences": 10769,
+    "unit_type": "semantic_chapter_or_piece",
+    "unit_count": 53,
+    "early_mid_late_compared": true,
+    "weighted_dialogue_ratio": 0.2741,
+    "metrics_file": null,
+    "semantic_segmentation_file": null,
+    "sections": [
+      {
+        "section_id": "P0",
+        "section_name": "前置炼狱篇（源文件未见总标题）",
+        "narrative_thread": "月儿兰/格林起源线",
+        "unit_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "unit_count": 6,
+        "characters": 28286,
+        "source_line_start": 6,
+        "source_line_end": 289
+      },
+      {
+        "section_id": "V1",
+        "section_name": "第一卷·阵痛",
+        "narrative_thread": "月儿兰欧卡亚主线",
+        "unit_indices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48
+        ],
+        "unit_count": 42,
+        "characters": 274213,
+        "source_line_start": 291,
+        "source_line_end": 2895
+      },
+      {
+        "section_id": "V2",
+        "section_name": "未完后续卷（序章《最后一场雪》起）",
+        "narrative_thread": "月儿兰—伊莎/印莱特线",
+        "unit_indices": [
+          49,
+          50,
+          51
+        ],
+        "unit_count": 3,
+        "characters": 21534,
+        "source_line_start": 2897,
+        "source_line_end": 3126
+      },
+      {
+        "section_id": "I1",
+        "section_name": "《斯巴达斯特隘口的红土》",
+        "narrative_thread": "土固伦士兵线",
+        "unit_indices": [
+          52
+        ],
+        "unit_count": 1,
+        "characters": 8553,
+        "source_line_start": 3128,
+        "source_line_end": 3208
+      },
+      {
+        "section_id": "E1",
+        "section_name": "《炼狱外篇之亚克传（一、誓言）》",
+        "narrative_thread": "亚克/希斯塔外篇",
+        "unit_indices": [
+          53
+        ],
+        "unit_count": 1,
+        "characters": 5638,
+        "source_line_start": 3210,
+        "source_line_end": 3271
+      }
+    ]
+  },
+  "segmentation": {
+    "initial_automatic_unit_count": 50,
+    "reviewed_semantic_unit_count": 53,
+    "manual_boundary_corrections": [
+      {
+        "source_line": 2897,
+        "title": "序章最后一场雪",
+        "action": "split_as_prologue"
+      },
+      {
+        "source_line": 3128,
+        "title": "斯巴达斯特隘口的红土",
+        "action": "split_as_interlude"
+      },
+      {
+        "source_line": 3210,
+        "title": "炼狱外篇之亚克传（一、誓言）",
+        "action": "split_as_extra"
+      }
+    ],
+    "chapter_number_gaps_preserved": true,
+    "missing_chapters_invented": false,
+    "provisional_label": "前置炼狱篇（源文件未见正式总标题）"
+  },
+  "normalization": {
+    "semantic_copy_only": true,
+    "raw_source_modified": false,
+    "malformed_middle_dot_entities_observed": 169,
+    "isolated_decorative_star_pairs_observed": 4,
+    "actions": [
+      "畸形中点HTML实体在分析副本中统一为·",
+      "孤立⚹⚹在分析副本中删除"
+    ],
+    "author_score_penalty_for_source_noise": false
+  },
+  "sampling": {
+    "close_read_unit_count": 40,
+    "close_read_units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22,
+      23,
+      25,
+      26,
+      27,
+      29,
+      30,
+      32,
+      33,
+      35,
+      36,
+      38,
+      39,
+      41,
+      42,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "selection_reasons": [
+      "亚克传现存外篇全覆盖",
+      "土固伦底层士兵视角全覆盖",
+      "未完后续卷现存单元全覆盖（月儿兰—伊莎/印莱特）",
+      "第一卷早中晚分层覆盖（月儿兰主线）",
+      "起源、变身与格林→月儿兰身份连续性全覆盖"
+    ],
+    "packet_file": null,
+    "coverage": [
+      "月儿兰／格林起源线全覆盖",
+      "第一卷早中晚分层覆盖",
+      "未完后续卷现存单元全覆盖",
+      "土固伦插篇全覆盖",
+      "亚克外篇现存单元全覆盖"
+    ]
+  },
+  "protagonist": {
+    "name": "月儿兰",
+    "former_name": "格林",
+    "identification_basis": "主体第一人称、全书身份弧与关系／政治冲突中心",
+    "identity_continuity": "同一大脑、记忆、叙述意识和罪责连续；不视为两名独立角色"
+  },
+  "completion": {
+    "status": "ongoing",
+    "basis": "user_explicit_unfinished",
+    "user_explicitly_declared": true,
+    "main_ending_present": false,
+    "epilogue_present": false,
+    "extras_present": true,
+    "author_afterword_present": false,
+    "terminal_arc_units": [],
+    "main_ending_units": [],
+    "epilogue_units": [],
+    "extra_units": [
+      53
+    ],
+    "interlude_units": [
+      52
+    ],
+    "author_afterword_units": [],
+    "coverage": {
+      "main_ending_analyzed": false,
+      "epilogue_analyzed": false,
+      "extras_checked": true,
+      "extras_analyzed_for_style_not_ending": true
+    },
+    "ending_design_triggered": false
+  },
+  "audits": {
+    "prose": {
+      "triggered": true,
+      "overall_score": 8.4,
+      "dimensions": {
+        "language_control": 8.0,
+        "dialogue_craft": 8.5,
+        "atmosphere": 8.5,
+        "emotional_impact": 8.9,
+        "information_design": 7.5,
+        "relational_intimacy": 9.0,
+        "closure_restraint": 7.9
+      }
+    },
+    "humor": {
+      "triggered": true,
+      "overall_score": 8.6,
+      "basis": "至少跨三个独立位置和两类场景，参与人物、关系、节奏与权力反讽"
+    },
+    "protagonist_charm": {
+      "triggered": true,
+      "target": "月儿兰",
+      "framework_dimensions_covered": 14
+    }
+  },
+  "fidelity": {
+    "grade": "B",
+    "static_review": true,
+    "metric_replay": false,
+    "independent_blind_review": false,
+    "reasons": [
+      "全文统计完成",
+      "人工边界复核完成",
+      "40单元分层精读完成",
+      "作品未完且源文件章号跳缺",
+      "未做生成回放与独立盲评"
+    ]
+  },
+  "limitations": [
+    "源文件章号跳缺，现存TXT可能不是作者全部已写文本",
+    "作品未完结，无结局、尾声与完整外篇",
+    "无公开读者评论、投票或长期接受史数据",
+    "前置六章正式总标题无法从输入确认"
+  ],
+  "work_title": "三千纪",
+  "author": "徙徒",
+  "publication_context": "用户说明：早期网络连载的变身百合奇幻，连载中止且没有结局；当前档案只覆盖用户提供的现存TXT副本。",
+  "analysis": {
+    "mode": "DISTILL_ONGOING_PARTIAL_TEXT",
+    "fidelity_grade": "B",
+    "protagonist_focus": "月儿兰／格林身份连续性与长期依恋机制",
+    "humor_audit_triggered": true,
+    "independent_blind_review": false,
+    "multi_scene_metric_replay": false,
+    "ending_transfer_test_run": false
+  },
+  "raw_text_packaged": false,
+  "independent_blind_review": false,
+  "publication_scope_note": "The source TXT, normalized corpus, semantic units, close-reading packet, local path and private analysis workdirs are not distributed. The built-in profile retains only aggregate observations, minimal evidence locators and independently written analysis.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novel, characters, plot, settings or original expression."
+}

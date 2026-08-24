@@ -70,6 +70,26 @@ All rights in novels, characters, plots, distinctive passages and other literary
 - Rights in the novels, characters, plot, settings and original expression remain with the author and relevant rights holders.
 - The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary works.
 
+### Built-in profile `004-sanqianji-xitu`
+
+- Analysis subject: the unfinished novel *San Qian Ji* (`三千纪`) by Xitu (`徙徒`).
+- This repository does **not** include the source TXT, novel text, normalized corpus, semantic units, close-reading packet or other substitute copies.
+- The built-in profile contains independently written critical analysis, aggregate observations, minimal evidence locators and reusable writing mechanisms.
+- Names of the work and characters are used only to identify the subject of analysis.
+- Rights in the novel, characters, plot, settings and original expression remain with the author and relevant rights holders.
+- The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary work.
+- The work is recorded as unfinished on the user's explicit statement; the profile does not invent or infer a final ending.
+
+### Built-in profile `005-yifutelona-jiuri-juzer`
+
+- Analysis subject: the unfinished novel *Yi Fu Te Luo Na De Jiu Ri Jian Wen* (`伊芙特罗娜的旧日见闻`) by Juzer (`橘赭Juzer`).
+- This repository does **not** include the source TXT, novel text, normalized corpus, semantic chapters, close-reading materials, removed chapter text or other substitute copies.
+- The built-in profile contains independently written critical analysis, aggregate observations, minimal evidence locators and reusable writing mechanisms.
+- Names of the work and characters are used only to identify the subject of analysis.
+- Rights in the novel, characters, plot, settings and original expression remain with the author and relevant rights holders.
+- The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary work.
+- The work is recorded as ongoing on the user's explicit statement. Chapter 366 is unavailable and represented only by a labeled user statement plus limited adjacent-chapter corroboration; the profile neither reconstructs the removed text nor infers a final relationship outcome.
+
 ### Root audit benchmark `LUXUN_AUDIT_BENCHMARK.md`
 
 - Analysis subject: selected literary texts by Lu Xun (`鲁迅`) from *Zhaohua Xishi* (`朝花夕拾`), *Wild Grass* (`野草`), *Call to Arms* (`呐喊`), *Wandering* (`彷徨`) and *Old Tales Retold* (`故事新编`).
