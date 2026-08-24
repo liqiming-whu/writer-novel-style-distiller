@@ -90,6 +90,16 @@ All rights in novels, characters, plots, distinctive passages and other literary
 - The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary work.
 - The work is recorded as ongoing on the user's explicit statement. Chapter 366 is unavailable and represented only by a labeled user statement plus limited adjacent-chapter corroboration; the profile neither reconstructs the removed text nor infers a final relationship outcome.
 
+### Built-in profile `006-shenguozhishang-jianyisijian`
+
+- Analysis subject: the completed novel *Shen Guo Zhi Shang* (`神国之上`) by Jian Yi Si Jian (`见异思剑`).
+- This repository does **not** include the source TXT, novel text, normalized corpus, semantic chapters, close-reading materials, author afterword text or other substitute copies.
+- The built-in profile contains independently written critical analysis, aggregate observations, minimal evidence locators and reusable writing mechanisms.
+- Names of the work and characters are used only to identify the subject of analysis.
+- Rights in the novel, characters, plot, settings and original expression remain with the author and relevant rights holders.
+- The repository MIT License applies to the original analysis documents and tooling only; it does not license the underlying literary work.
+- The updated source restored 23 formerly empty chapter entries; source label 111 and the afterword-mentioned external extras remain unavailable and are not reconstructed. Reader-preference claims are recorded as user statements, not platform survey data.
+
 ### Root audit benchmark `LUXUN_AUDIT_BENCHMARK.md`
 
 - Analysis subject: selected literary texts by Lu Xun (`鲁迅`) from *Zhaohua Xishi* (`朝花夕拾`), *Wild Grass* (`野草`), *Call to Arms* (`呐喊`), *Wandering* (`彷徨`) and *Old Tales Retold* (`故事新编`).

@@ -9,6 +9,7 @@
 | 003 | [003-longzu-jiangnan](003-longzu-jiangnan/README.md) | 《龙族1—4》／江南 | 路明非代入；楚子航、绘梨衣魅力 | 四个卷级尾声；系列未完结 | B·可复用 |
 | 004 | [004-sanqianji-xitu](004-sanqianji-xitu/README.md) | 《三千纪》／徙徒 | 月儿兰／格林身份连续性与读者依恋 | 未完结；只登记开放承诺与现存外篇 | B·可复用 |
 | 005 | [005-yifutelona-jiuri-juzer](005-yifutelona-jiuri-juzer/README.md) | 《伊芙特罗娜的旧日见闻》／橘赭Juzer | 伊芙·哈维因身份连续性、魅力与争议接受 | 未完结；只登记开放承诺及第366章证据边界 | B·可复用 |
+| 006 | [006-shenguozhishang-jianyisijian](006-shenguozhishang-jianyisijian/README.md) | 《神国之上》／见异思剑 | 陆嫁嫁、赵襄儿、宁小龄、司命、邵小黎、叶婵宫的差异化魅力 | 主线终局＋第478—480章内嵌余波；后续番外未提供 | B·可复用 |
 
 ## 加载规则
 

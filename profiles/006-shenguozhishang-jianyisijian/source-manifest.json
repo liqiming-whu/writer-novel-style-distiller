@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.1",
+  "created_at": "2026-08-24T00:00:00+00:00",
+  "profile_name": "《神国之上》样本衍生文风",
+  "visibility": "public_builtin_profile",
+  "work_title": "神国之上",
+  "author": "见异思剑",
+  "publication": {
+    "platform": "七猫小说",
+    "platform_basis": "user_statement",
+    "genre_notes": [
+      "后宫",
+      "玄幻",
+      "男性向"
+    ],
+    "completion_status": "complete"
+  },
+  "source_files": [
+    {
+      "source_id": "S01",
+      "file_name": "user-provided-local-copy.txt",
+      "path": null,
+      "format": "txt",
+      "encoding": "utf-8-sig",
+      "sha256": "3e0d82c17eaec1155874c30f55df00d22d551f33e462ea8cbd9119c099b1149c",
+      "bytes": 8879071,
+      "decoded_characters": 3016674,
+      "lines": 84607,
+      "replacement_characters": 0
+    }
+  ],
+  "supplementary_evidence": [
+    {
+      "source_id": "U01",
+      "type": "user_statement",
+      "scope": "发布平台、题材、完结状态与女性角色接受经验",
+      "claims": [
+        "作品发布于七猫小说，属于后宫、玄幻、男性向题材，并已完结",
+        "作者的长期读者认为作者擅长塑造有魅力的女性角色",
+        "陆嫁嫁、赵襄儿、宁小龄、司命、邵小黎、叶婵宫等角色各有特色，不同读者的最喜欢角色并不相同"
+      ],
+      "external_reception_research_run": false,
+      "analytical_boundary": "接受经验用于确定本轮多女性角色魅力分析重点，不冒充平台评论、投票或读者调查数据。"
+    }
+  ],
+  "corpus": {
+    "full_text_covered": false,
+    "provided_file_fully_covered": true,
+    "effective_characters": 2748597,
+    "paragraphs": 82883,
+    "sentences": 100294,
+    "unit_type": "substantive_semantic_chapter",
+    "unit_count": 482,
+    "chapter_heading_entries": 482,
+    "weighted_dialogue_ratio": 0.2192,
+    "early_mid_late_compared": true,
+    "metrics_file": null,
+    "semantic_segmentation_file": null
+  },
+  "segmentation": {
+    "initial_automatic_unit_count": 314,
+    "initial_first_unit_characters": 760847,
+    "reviewed_chapter_heading_entries": 482,
+    "reviewed_substantive_unit_count": 482,
+    "placeholder_entry_count": 0,
+    "placeholder_source_numbers": [],
+    "placeholder_reason": "上一版登记的23个null／平台提示占位章已在更新源TXT中全部补入有效正文；本轮按原叙事顺序恢复并纳入统计。",
+    "source_label_missing_1_to_480": [
+      111
+    ],
+    "source_label_duplicates": [
+      316,
+      319,
+      321
+    ],
+    "malformed_heading_inferences": [
+      {
+        "raw": "第一八十五章",
+        "inferred": "第一百八十五章",
+        "basis": "相邻章节顺序"
+      },
+      {
+        "raw": "第三百二十久章 乘舟过峰一万重",
+        "inferred": "第三百二十九章《乘舟过峰一万重》",
+        "basis": "相邻章节顺序与九／久形近误字"
+      }
+    ],
+    "chapter_number_anomalies_preserved": true,
+    "missing_chapters_invented": false,
+    "removed_platform_chatter_lines": 259,
+    "notes": [
+      "初次摄取未识别前169章的“卷名＋第X章”标题，把760847字符合为前置单元；正式统计继续使用人工复核的语义章节。",
+      "更新源TXT恢复上一版23个无正文条目，现有482个标题条目均为有效章节单元；旧有459章逐章核验为正文未改，仅源文件夹入平台／作者互动行。",
+      "源标第111章仍未出现；重复316、319、321及两个畸形标题继续保留，以story_ordinal记录叙事顺序，不擅自重编官方目录。",
+      "完本感言单独保存，只用于创作说明，不混入小说正史和文笔统计。"
+    ]
+  },
+  "sampling": {
+    "stratified_excerpt_units": 41,
+    "stratified_source_numbers": [
+      1,
+      2,
+      7,
+      8,
+      22,
+      40,
+      56,
+      84,
+      113,
+      127,
+      131,
+      148,
+      170,
+      179,
+      181,
+      191,
+      209,
+      221,
+      228,
+      235,
+      265,
+      281,
+      289,
+      305,
+      310,
+      321,
+      327,
+      334,
+      360,
+      375,
+      381,
+      405,
+      438,
+      443,
+      448,
+      461,
+      464,
+      475,
+      476,
+      477,
+      478
+    ],
+    "female_character_focus": [
+      "陆嫁嫁",
+      "赵襄儿",
+      "宁小龄",
+      "司命",
+      "邵小黎",
+      "叶婵宫"
+    ],
+    "female_character_occurrence_counts": {
+      "陆嫁嫁": {
+        "mentions": 6178,
+        "chapter_units": 342
+      },
+      "赵襄儿": {
+        "mentions": 3964,
+        "chapter_units": 256
+      },
+      "宁小龄": {
+        "mentions": 4304,
+        "chapter_units": 274
+      },
+      "司命": {
+        "mentions": 6171,
+        "chapter_units": 228
+      },
+      "邵小黎": {
+        "mentions": 2405,
+        "chapter_units": 117
+      },
+      "叶婵宫": {
+        "mentions": 1401,
+        "chapter_units": 89
+      }
+    },
+    "terminal_track": {
+      "source_number_range": "438-480",
+      "edge_excerpt_reviewed_for_available_438_to_458": true,
+      "full_text_reviewed_for_available_459_to_480": true,
+      "known_null_gaps_in_range": [],
+      "restored_full_text_reviewed": [
+        449,
+        455,
+        456
+      ],
+      "all_source_labels_438_to_480_present": true
+    },
+    "author_afterword_reviewed": true,
+    "incremental_restored_units_full_read": 23,
+    "incremental_restored_source_numbers": [
+      408,
+      412,
+      413,
+      414,
+      415,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      425,
+      428,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      449,
+      455,
+      456
+    ]
+  },
+  "completion": {
+    "status": "complete",
+    "basis": "user_explicit_and_source_completion_note",
+    "user_explicitly_declared": true,
+    "source_completion_note_present": true,
+    "main_ending_present": true,
+    "main_ending_source_number": 480,
+    "embedded_post_climax_aftermath_source_numbers": [
+      478,
+      479,
+      480
+    ],
+    "epilogue_present": false,
+    "extras_present": null,
+    "extras_provided_in_input": false,
+    "extras_mentioned_as_future_in_afterword": true,
+    "author_afterword_present": true,
+    "coverage": {
+      "main_ending_analyzed": true,
+      "epilogue_analyzed": false,
+      "extras_checked": true,
+      "extras_analyzed": false,
+      "author_afterword_separated_from_canon": true
+    },
+    "ending_design_triggered": true
+  },
+  "audits": {
+    "prose": {
+      "triggered": true,
+      "overall_score": 8.5,
+      "dimensions": {
+        "language_control": 8.2,
+        "dialogue_craft": 8.6,
+        "atmosphere": 8.8,
+        "emotional_impact": 8.7,
+        "information_design": 7.8,
+        "relational_intimacy": 8.9,
+        "closure_restraint": 8.4
+      }
+    },
+    "humor": {
+      "triggered": true,
+      "overall_score": 8.3,
+      "basis": "跨师徒日常、后宫群像、战斗余波、神话反拍和终局降压复现，并承担声音区分、亲密确认与高压转换功能。"
+    },
+    "character_charm": {
+      "triggered": true,
+      "narrative_protagonist": "宁长久",
+      "analysis_focus": [
+        "陆嫁嫁",
+        "赵襄儿",
+        "宁小龄",
+        "司命",
+        "邵小黎",
+        "叶婵宫"
+      ],
+      "framework_dimensions_covered": 14
+    },
+    "ending": {
+      "triggered": true,
+      "main_ending_analyzed": true,
+      "ending_transfer_test_run": false
+    }
+  },
+  "fidelity": {
+    "grade": "B",
+    "static_review": true,
+    "metric_replay": false,
+    "multi_scene_metric_replay": false,
+    "independent_blind_review": false,
+    "character_charm_transfer_test_run": false,
+    "ending_transfer_test_run": false,
+    "reasons": [
+      "更新源TXT完成全量读取与人工章节边界复核，482个标题条目均有有效正文",
+      "旧有459章正文逐章核验未改，上一版23个占位章全部恢复并完成增量全文读取",
+      "482个有效章节单元重算全量指标并比较早中晚漂移",
+      "六位女性角色的全文出现范围、分期证据与关系镜像完成增量修正",
+      "第438—480章已无占位缺口，第459—480章及恢复的终局相关章完成全文核对，完本感言与正史分离",
+      "源标第111章仍未出现，且未提供后续公众号番外",
+      "未执行生成回放、独立盲评、角色魅力迁移测试与结局迁移测试"
+    ]
+  },
+  "limitations": [
+    "源TXT仍未出现源标第111章；第110章后直接进入第112章，不能确认是原始漏章、抓取缺失还是官方编号异常，也不补写。",
+    "源章号重复316、319、321，并有两个标题误字；档案保留源标签与叙事顺序，不擅自重编官方目录。",
+    "上一版23个无正文占位章已全部补齐，终局第438—480章不再有已知占位缺口；相关文风、人物与结局判断已增量修正。",
+    "输入没有作者后续提及的公众号番外，因此不能分析番外对主线结局的增补或修改。",
+    "女性角色受欢迎及读者各有所爱来自用户陈述；本轮没有外部评论、投票、收藏或问卷调查。",
+    "统计已去除可识别平台提示与作者互动行，但抓取版仍可能残留少量排版、错字或更新痕迹，不把这些全部计为作者文笔缺陷。"
+  ],
+  "packaging": {
+    "raw_text_packaged": false,
+    "normalized_corpus_packaged": false,
+    "work_directory_private": true,
+    "independent_skill_built": false,
+    "installed_to_operit_skills": true,
+    "builtin_profile_registered": true,
+    "public_repository_written": true
+  },
+  "updated_at": "2026-08-24T17:46:00+08:00",
+  "incremental_update": {
+    "previous_sha256": "23609cf9a067fc63710da02f5ea0aeb1961b9c9032eab9e0986f27c7f07c3a52",
+    "current_sha256": "3e0d82c17eaec1155874c30f55df00d22d551f33e462ea8cbd9119c099b1149c",
+    "restored_placeholder_count": 23,
+    "restored_source_numbers": [
+      408,
+      412,
+      413,
+      414,
+      415,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      425,
+      428,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      449,
+      455,
+      456
+    ],
+    "remaining_missing_source_labels": [
+      111
+    ],
+    "unchanged_previous_substantive_units_verified": 459,
+    "method": "旧有459章逐章按有序子序列比对；恢复章全文读取、清洗并重算全量指标与角色提及范围。",
+    "final_static_validation": {
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "checks": [
+        "source hash",
+        "482 unit metadata and hashes",
+        "remaining source label 111",
+        "full metrics",
+        "six character counts",
+        "six reference files",
+        "JSON and links",
+        "stale contradiction scan",
+        "private path scan",
+        "long exact source-line leakage scan"
+      ]
+    }
+  },
+  "raw_text_packaged": false,
+  "publication_scope_note": "The source TXT, normalized corpus, semantic chapters, close-reading materials, local paths and private analysis workdirs are not distributed. The updated source restored 23 formerly empty chapter entries; source label 111 remains absent and is not reconstructed.",
+  "license_scope": "MIT covers repository code and original analysis only; it does not cover the source novel, characters, plot, settings or original expression."
+}
